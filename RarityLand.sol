@@ -613,9 +613,9 @@ interface RarityLandStorage {
 
 contract RarityLand is ERC721, Ownable {
     //main-Rarity: 0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb
-    rarity constant rm = rarity(0x17AC8A1155677151E2e26B5F79a24C44B1bFADAB);
+    rarity constant rm = rarity(0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb);
     //main-Storage: 
-    RarityLandStorage constant rls = RarityLandStorage(0x45dc9b1abEAB41DfFc2FAb4644E03DB57Fa91268);
+    RarityLandStorage constant rls = RarityLandStorage(0x411409fF5c149499062AB86E158aB2945eF366e3);
     
     string constant public name = "Rarity Land";
     string constant public symbol = "RL";
@@ -776,3 +776,6 @@ contract RarityLand is ERC721, Ownable {
         return output;
     }
 }
+
+
+
